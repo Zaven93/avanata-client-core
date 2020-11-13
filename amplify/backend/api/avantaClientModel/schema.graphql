@@ -1,0 +1,16 @@
+type Todo @model {
+    id: ID!
+    name: String!
+    description: String
+}
+
+type User @model @key(name: "userByPhone", fields: ["phone_number"], queryField: "userByPhone") {
+    id: ID!
+    shopifyCustomerId: ID!
+    name: String!
+    surname: String!
+    balance: String
+    bonusHistory: String
+    orderHistory: String
+    phone_number: String
+}
