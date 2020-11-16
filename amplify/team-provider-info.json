@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-avantaclient-dev-32642-authRole",
+      "UnauthRoleArn": "arn:aws:iam::369099262038:role/amplify-avantaclient-dev-32642-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::369099262038:role/amplify-avantaclient-dev-32642-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-avantaclient-dev-32642-deployment",
+      "UnauthRoleName": "amplify-avantaclient-dev-32642-unauthRole",
+      "StackName": "amplify-avantaclient-dev-32642",
+      "StackId": "arn:aws:cloudformation:us-east-1:369099262038:stack/amplify-avantaclient-dev-32642/a946ed20-2347-11eb-a0a7-1253d15d20e2",
+      "AmplifyAppId": "d2lc6v4iyr72n8"
+    },
+    "categories": {
+      "function": {
+        "OTPavantaCreateAuthChallenge": {
+          "CHALLENGEANSWER": ""
+        },
+        "OTPavantaDefineAuthChallenge": {},
+        "OTPavantaPreSignup": {},
+        "OTPavantaVerifyAuthChallengeResponse": {}
+      },
+      "auth": {
+        "OTPavanta": {}
+      }
+    }
+  }
+}

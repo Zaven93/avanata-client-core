@@ -1,0 +1,16 @@
+{
+  "trigger": true,
+  "modules": [
+    "custom"
+  ],
+  "parentResource": "OTPavanta",
+  "functionName": "OTPavantaPreSignup",
+  "resourceName": "OTPavantaPreSignup",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "C:\\Users\\Admin\\AppData\\Roaming\\nvm\\v12.18.1\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\PreSignup",
+  "triggerTemplate": "PreSignup.json.ejs",
+  "roleName": "OTPavantaPreSignup",
+  "skipEdit": true,
+  "enableCors": false
+}
